@@ -44,5 +44,11 @@ def go(myarray: List[float], branch_factor: int):
        the visualize method of the dask object (my_return_value.visualize('filename.png'))
        should return the same graph as in the assignment writeup.
 
+    myarray=[0,1,2,3,4,5,6,7,8,9,10]
+    bf=3
+    012 345 678 910
+    first increment
+    len(myarray)/bf, round up: 4
+    myarray%bf
     """
-    pass
+    myarray.increment()
